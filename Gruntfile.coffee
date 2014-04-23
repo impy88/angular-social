@@ -19,7 +19,7 @@ module.exports = (grunt) ->
                 ]
             images:
                 files: [
-                    src: './src/images/*'
+                    src: './src/img/*'
                     dest: './.temp/'
                     flatten: true
                     expand: true
