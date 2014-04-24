@@ -46,7 +46,7 @@ module.exports = (grunt) ->
             css:
                 src: [ "angular-social.css" ]
                 dest: "angular-social.css"
-                baseDir: './'
+                baseDir: '../'
 
         less:
             css:
@@ -89,7 +89,6 @@ module.exports = (grunt) ->
         'concat'
         'less'
         'copy'
-        'imageEmbed'
     ]
     grunt.registerTask 'default', [
         'dev'
